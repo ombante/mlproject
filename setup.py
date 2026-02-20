@@ -7,6 +7,7 @@ def get_requirements(file_path: str) -> List[str]:
     '''
     return the filtered list of requirements from the provided file
     '''
+    requirements = []
     with open(file_path) as file_obj:
         requirements = [line.strip() for line in file_obj if line.strip()]
     if HYPEN_E_DOT in requirements:
