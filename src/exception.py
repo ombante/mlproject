@@ -1,5 +1,5 @@
 import sys
-import logging
+from src.logger import logging
 
 
 ### when error occuren then this will be run and it will give the details of error like file name, line number and error message
@@ -21,5 +21,3 @@ class CustomException(Exception):
         return self.error_message
 
 
-
-    
