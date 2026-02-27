@@ -30,6 +30,6 @@ console_handler.setFormatter(console_formatter)
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
-    handlers=[file_handler, console_handler]
+    handlers=[file_handler]
 )
 
